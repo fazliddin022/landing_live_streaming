@@ -1,0 +1,23 @@
+{
+  "name": "sass_live_streaming",
+  "version": "1.0.0",
+  "description": "landing page",
+  "source": "index.html",
+  "scripts": {
+    "sass:watch": "sass --style=expanded --watch styles:dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fazliddin022/landing_live_streaming.git"
+  },
+  "author": "Fazliddin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fazliddin022/landing_live_streaming/issues"
+  },
+  "homepage": "https://github.com/fazliddin022/landing_live_streaming#readme",
+  "devDependencies": {
+    "parcel": "^2.15.4",
+    "sass": "^1.89.2"
+  }
+}
