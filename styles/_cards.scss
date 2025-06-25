@@ -11,8 +11,8 @@
     @include m.d-flex(start, center, nowrap, column, 0, 10px);
 
     &__icon {
-        width: 50px;
-        height: 50px;
+        width: 25px;
+        height: 25px;
         fill: v.$color_black;
     }
 
@@ -20,9 +20,9 @@
         @include m.font(18px, 500, v.$color_black);
     }
 
-    &__desc{
+    &__desc {
         text-align: center;
-        @include m.font(16px,300, v.$color_black);
+        @include m.font(16px, 300, v.$color_black);
     }
 
     &:hover {
@@ -45,8 +45,8 @@
             @include m.font(14px, 400, v.$color_black);
         }
     
-        &__desc{
-            @include m.font(11px,300, v.$color_black);
+        &__desc {
+            @include m.font(11px, 300, v.$color_black);
         }
     }
 }
